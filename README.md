@@ -1,4 +1,5 @@
 Startup welcome
+
 This is a simple script that generates a startup script for Windows. The script allows the user to customize the welcome message or error message that will be displayed when the startup script runs. The script also allows the user to choose between a batch file-style prompt or a friendly error message.
 
 Usage
