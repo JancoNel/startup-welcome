@@ -1,18 +1,37 @@
-Startup welcome
+# Startup Greeter for Windows
 
-This is a simple script that generates a startup script for Windows. The script allows the user to customize the welcome message or error message that will be displayed when the startup script runs. The script also allows the user to choose between a batch file-style prompt or a friendly error message.
+A lightweight batch script that creates a personalized greeting or error-style message at system startup. Add some fun or functionality to your boot process.
 
-Usage
-To use the script, bacth file. The script will prompt the user for a custom message to display and whether to use a batch file-style prompt or a friendly error message. The script will then generate the startup script file and save it to the user's startup folder.
+## 🚀 Features
+- Displays a custom message every time you log in
+- Choose between a batch prompt or a Windows-style error dialog
+- Optionally remove old startup scripts
+- Fully customizable with minimal setup
 
-If the user selects the option to delete the previously generated file, the script will first check if the file exists and delete it if it does. If the file does not exist, the script will display a message indicating that no file was found.
+## 📦 How to Use
+1. Run the script by double-clicking the batch file (`startup-welcome.bat`)
+2. Follow the prompts:
+   - Enter your custom greeting or message
+   - Choose your preferred display style (classic prompt or friendly error box)
+   - Decide if you want to delete any existing startup script
 
-Requirements
-The script requires Windows and the ability to run batch files.
+The script will automatically generate the appropriate file in your Windows startup folder:
+```
+%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
+```
 
-Contributing
-If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+## 🧹 Uninstall
+To remove the greeting, simply delete the generated `.bat` file from your startup folder.
 
-License
+## 🖥 Requirements
+- Windows OS
+- Ability to run batch scripts
 
-No license feel free to borrow and steal my code
+## 🤝 Contributing
+Feel free to open an issue or pull request if you find bugs or have improvements in mind.
+
+## 📄 License
+This project is open-source and unlicensed. You are free to use, modify, or repurpose the code as you see fit.
+```
+
+---
