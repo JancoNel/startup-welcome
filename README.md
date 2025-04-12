@@ -9,7 +9,7 @@ A lightweight batch script that creates a personalized greeting or error-style m
 - Fully customizable with minimal setup
 
 ## 📦 How to Use
-1. Run the script by double-clicking the batch file (`startup-welcome.bat`)
+1. Run the script by double-clicking the batch file (`startup.bat`)
 2. Follow the prompts:
    - Enter your custom greeting or message
    - Choose your preferred display style (classic prompt or friendly error box)
